@@ -11,3 +11,5 @@ app.use(express.urlencoded({ extended: true }));
 app.use(bodyparser.json());
 app.use("/auth", auth);
 app.use("/product", product);
+
+
